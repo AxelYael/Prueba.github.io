@@ -498,6 +498,65 @@
   z-index: -1; /* Para que quede al fondo */
 }
 
+        @media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 20px 10px;
+    height: auto;
+  }
+
+  #botonMostrar {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .titulo {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0 10px;
+    position: static;
+    transform: none;
+    text-align: center;
+  }
+
+  .flower__wrapper {
+    padding: 0 5vh;
+    transform: scale(0.9);
+  }
+
+  .flower__head {
+    width: 16vh;
+    height: 19vh;
+  }
+
+  .flower__petal {
+    width: 12vh;
+    height: 16vh;
+  }
+
+  .flower__steam-wrapper {
+    height: 30vh;
+  }
+
+  .flower__steam-end {
+    height: 3vh;
+  }
+}
+        @media (min-width: 601px) and (max-width: 1024px) {
+  .titulo {
+    font-size: 1.8rem;
+  }
+
+  #botonMostrar {
+    font-size: 1.4rem;
+  }
+}
+
+
         
     </style>
 </head>
